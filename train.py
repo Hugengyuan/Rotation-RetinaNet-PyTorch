@@ -18,9 +18,7 @@ from pprint import pprint
 from eval import evaluate
 from Logger import Logger
 
-root_path = os.path.abspath(__file__)
-root_path = '/'.join(root_path.split('/')[:-2])
-sys.path.append(root_path)
+sys.path.append('/kaggle/working/Rotation-RetinaNet-PyTorch')
 
 class Params:
     def __init__(self, project_file):
