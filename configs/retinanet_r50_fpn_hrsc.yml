@@ -32,7 +32,7 @@ keep_ratio: False
 batch_size: 16
 augment: False
 
-data_path: '/kaggle/input'
+data_path: '/kaggle/input/resent-prestrained/resnet_v1_50.ckpt'
 output_path: '/kaggle/working'
 # weight the delta values.
 
