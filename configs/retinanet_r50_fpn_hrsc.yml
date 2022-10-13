@@ -32,8 +32,8 @@ keep_ratio: False
 batch_size: 16
 augment: False
 
-data_path: '{Data Root Path.}'
-output_path: '{Project Output Path.}'
+data_path: '/kaggle/input'
+output_path: '/kaggle/working'
 # weight the delta values.
 
 optimizer: adam
